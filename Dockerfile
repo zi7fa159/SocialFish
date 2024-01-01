@@ -19,7 +19,6 @@ RUN pipenv install qrcode
 RUN pipenv install Flask
 RUN pipenv install colorama
 RUN pipenv install Flask_Login
-RUN pipenv install nmap
 #RUN pipenv install python-secrets
 
 COPY . .
