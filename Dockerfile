@@ -10,6 +10,7 @@ RUN apk add --no-cache gcc ethtool nmap bash
 WORKDIR /usr/src/app
 
 RUN python -m pip install --upgrade pip
+RUN pip install nmap
 RUN pip install pipenv
 RUN pipenv --python 3
 RUN pipenv install requests
